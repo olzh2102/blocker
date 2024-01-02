@@ -82,7 +82,7 @@ type Signature struct {
 	value []byte
 }
 
-func (s *Signature) Bytest() []byte {
+func (s *Signature) Bytes() []byte {
 	return s.value
 }
 
